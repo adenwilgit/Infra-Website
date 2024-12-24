@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 22, 2024 at 06:56 AM
+-- Generation Time: Dec 24, 2024 at 04:27 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -41,26 +41,31 @@ CREATE TABLE `penelitian` (
 --
 
 INSERT INTO `penelitian` (`kd_penelitian`, `judul`, `lokasi`, `thn_akademik`, `tanggal`, `status`) VALUES
+(1, 'Pengaruh Digital Marketing terhadap Keputusan Mahasiswa Baru', 'Universitas Binaniaga Indonesia', '2023/2024', '2023-02-25', 2),
 (2, 'Penerapan Metode Algoritma C4.5 Untuk Prediksi Mahaiswa Non Aktif', 'Universitas Binaniaga Indonesia', '2021/2022', '2021-03-03', 2),
 (3, 'Penerapan Web Service Untuk Meningkatkan Performa Kecepatan Data Pada Sistem TPA', 'Universitas Binaniaga Indonesia', '2021/2022', '2021-12-01', 2),
 (4, 'Penerapan Algoritma N-Gram Dan Winnowing Untuk Deteksi Plagiarisme Usulan Dokumen Perguruan Tinggi', 'Universitas Binaniaga Indonesia', '2021/2022', '2021-12-02', 2),
 (5, 'Penerapan Internet Of Things Untuk Pengontrolan Lampu Rumah Melalui Chatting Via Telegram', 'Universitas Binaniaga Indonesia', '2021/2022', '2021-12-07', 2),
 (6, 'Penerapan Internet Of Things Untuk Notifikasi Ketersediaan Pakan Ayam Menggunakan Aplikasi Chat', 'Universitas Binaniaga Indonesia', '2021/2022', '2021-12-02', 2),
-(7, 'Penerapan Metode Representational State Transfer (Restfull) Web Services Pada Pembuatan KTP Dan Kartu Keluarga', 'Universitas Binaniaga Indonesia', '2021/2022', '2021-12-06', 2),
+(7, 'Pengembangan Sistem IoT untuk Monitoring Ketersediaan Air di Kampus', 'Universitas Binaniaga Indonesia', '2021/2022', '2021-12-05', 2),
 (8, 'Aplikasi Keamanan Data Gambar Menggunakan Algoritma RSA (Rivest Shamir Adleman) Berbasis Desktop', 'Universitas Binaniaga Indonesia', '2021/2022', '2021-12-08', 2),
-(9, 'Penerapan Algoritma Rivest Shamir Adleman Untuk Meningkatkan Keamanan Virtual Private Network', 'Universitas Binaniaga Indonesia', '2021/2022', '2021-12-08', 2),
+(9, 'Analisis Perbandingan Algoritma Support Vector Machine dan Random Forest untuk Prediksi Kelulusan Mahasiswa Berdasarkan Riwayat Nilai Akademik Kampus', 'Universitas Binaniaga Indonesia', '2021/2022', '2021-12-05', 2),
 (10, 'Sistem Informasi Nilai Akademik Mahasiswa Menggunakan Teknik Json dan NFC', 'Universitas Binaniaga Indonesia', '2021/2022', '2021-12-08', 2),
-(11, 'Penerapan Internet of Things Berbasis Teknologi Voice User Interface Untuk Kendali Jarak Jauh Dengan Node MCU 8266 Pada Rumah Pintar', 'Universitas Binaniaga Indonesia', '2021/2022', '2021-12-08', 2),
+(11, 'Studi Keamanan Data pada Sistem Informasi Akademik Kampus', 'Universitas Binaniaga Indonesia', '2024/2025', '2024-12-01', 1),
 (12, 'Efektivitas Iklan Media Sosial untuk Optimasi Digital Marketing UMKM', 'Bogor', '2022/2023', '2023-01-04', 2),
-(13, 'contoh judul', 'Universitas Binaniaga Indonesia', '2022/2023', '2023-01-06', 2),
-(14, 'Effektivitas Iklan Media Sosial untuk Optimasi Digitak Marketing UMKM', 'Kota Bogor', '2022/2023', '2023-01-03', 2),
-(15, 'contoh judul 2', 'Kampus Universitas Binaniaga Indonesia', '2022/2023', '2023-01-06', 2),
+(13, 'Rancang Bangun Sistem Informasi Absensi Mahasiswa', 'Universitas Binaniaga Indonesia', '2022/2023', '2023-01-05', 2),
+(14, '	Pengembangan Sistem Informasi Kepegawaian Berbasis Web dengan Fitur Integrasi API untuk Kemudahan Manajemen Data', 'Kota Bogor', '2022/2023', '2023-01-02', 2),
+(15, 'Pengembangan Internet of Things untuk Monitoring Kelas', 'Universitas Binaniaga Indonesia', '2022/2023', '2023-01-05', 2),
 (16, 'Penerapan Metode Naive Bayes Classifier Untuk Penentuan Topik Tugas Akhir', 'Universitas Binaniaga Indonesia', '2022/2023', '2023-01-07', 1),
-(17, 'Contoh', 'Universitas Binaniaga Indonesia ', '2022/2023', '2023-01-09', 0),
-(21, 'Pengaruh Lingkungan Kerja dan Beban Kerja terhadap Produktivitas Kerja Karyawan PT. Alva Karya Perkasa Kantor Cabang Sari Husada Jakarta Selatan', 'PT.Alva karya perkasa jakarta selaatan', '2023/2024', '2024-04-23', 0),
-(22, 'PENGARUH KUALITAS PELAYANAN JASA , LOYALITAS  PELANGGAN DAN KEPUASAAN PELANGGAN TERHADAP PENINGKATAN   USAHA PADA PT.KIJANG EMAS SEJAHTERA  BOGOR   (Studi  kasus  penguna  jasa indihome)', 'PT.kijang emas sejahtera  Bogor', '2024/2025', '2024-09-10', 0),
-(25, 'Driann', 'jakarta', '2010', '2024-12-21', 22),
-(29, 'Maura', 'Unpak', '20222', '2024-12-06', 1);
+(17, 'Penerapan Algoritma Naive Bayes untuk Prediksi Kelulusan Mahasiswa', 'Universitas Binaniaga Indonesia ', '2022/2023', '2023-01-08', 1),
+(18, 'Strategi Pemasaran Dan Rencana Bisnis Sebagai Upaya Peningkatan Penjualan Bagi IKM Universitas Binaniaga', 'IKM Universitas Binaniaga', '2022/2023', '2023-01-22', 0),
+(19, 'Analisis arus uang arus barang dalam rangka pembuktian faktur pajak cacat terhadap pemeriksa pajak tahun 2019', 'PT.Pionirbeton Industri', '2022/2023', '2022-08-01', 0),
+(20, 'Sistem Pendukung Keputusan Penentuan Beasiswa Menggunakan Metode AHP', 'Universitas Binaniaga Indonesia', '2023/2024', '2023-05-01', 2),
+(21, 'Pengaruh Lingkungan Kerja dan Beban Kerja terhadap Produktivitas Kerja Karyawan PT. Alva Karya Perkasa Cabang Jakarta Selatan', 'PT. Alva Karya Perkasa Jakarta Selatan', '2023/2024', '2024-04-21', 0),
+(22, 'Studi Penggunaan Teknologi Blockchain untuk Sistem Manajemen Sertifikat Akademik Guna Meningkatkan Transparansi dan Keamanan Data', 'Universitas Binaniaga Indonesia', '2024/2025', '2024-09-08', 1),
+(23, 'Analisis Data Mining untuk Prediksi Kelulusan Mahasiswa', 'Universitas Binaniaga Indonesia', '2023/2024', '2023-01-14', 3),
+(24, 'Pengembangan Aplikasi Mobile untuk Monitoring Kehadiran Dosen', 'Universitas Binaniaga Indonesia', '2023/2024', '2023-03-25', 3),
+(26, 'Penerapan Sistem Informasi Geografis untuk Pemilihan Lokasi Magang', 'Universitas Binaniaga Indonesia', '2023/2024', '2023-09-25', 2);
 
 --
 -- Indexes for dumped tables
@@ -80,7 +85,7 @@ ALTER TABLE `penelitian`
 -- AUTO_INCREMENT for table `penelitian`
 --
 ALTER TABLE `penelitian`
-  MODIFY `kd_penelitian` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `kd_penelitian` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
